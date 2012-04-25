@@ -1,1 +1,0 @@
-/Users/alanjosephburke/projects/dotfiles/bashrc
