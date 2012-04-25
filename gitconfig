@@ -9,8 +9,8 @@
   new = green bold
   whitespace = red reverse
 [core]
-   whitespace=fix,-indent-with-non-tab,-indent-with-tab,trailing-space,cr-at-eol
-   excludesfile = /Users/alanjosephburke/.gitignore_global
+  whitespace=fix,-indent-with-non-tab,-indent-with-tab,trailing-space,cr-at-eol
+  excludesfile = /Users/alanjosephburke/.gitignore
   autocrlf = false
   safecrlf = false
 [diff]

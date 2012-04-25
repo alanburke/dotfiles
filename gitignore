@@ -1,0 +1,10 @@
+sites/default/settings.php
+sites/default/files*
+sites/default/files/*
+sites/default/private
+*.orig
+*.rej
+*~
+*.swp
+*.DS_Store
+.DS_Store
