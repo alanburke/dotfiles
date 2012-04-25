@@ -1,0 +1,38 @@
+[push]
+	default = tracking
+[color]
+  ui = auto
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[core]
+   whitespace=fix,-indent-with-non-tab,-indent-with-tab,trailing-space,cr-at-eol
+   excludesfile = /Users/alanjosephburke/.gitignore_global
+  autocrlf = false
+  safecrlf = false
+[diff]
+  renames = copies
+[alias]
+  a = apply --index
+  p = format-patch --stdout
+  st = status -s
+  df = !git diff --no-prefix && git diff --staged --no-prefix
+  clear = reset --hard
+  st = status
+	co = checkout
+	ci = commit
+	cim = commit -am
+	br = branch
+  mnf =  merge --no-ff 
+  hist = log --pretty=oneline --graph --date=short --decorate --abbrev-commit
+  hnm = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --no-merges
+  hf = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --first-parent
+  hfc = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --first-parent --no-merges
+  hfcu = log HEAD ^master  --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --first-parent --no-merges
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[user]
+	name = Alan Burke
+	email = alan@cycletraffic.com
