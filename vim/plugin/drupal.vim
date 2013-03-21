@@ -67,7 +67,7 @@ augroup Drupal
   " containing useful information for ftplugins and syntax files.  It will
   " also add drupal as a secondary filetype.  This will load the ftplugins and
   " syntax files drupal.vim after the usual ones.
-  autocmd FileType php,css,javascript,drini call s:DrupalInit()
+  autocmd FileType php,css,scss,html,javascript,drini call s:DrupalInit()
 
   " Highlight trailing whitespace.
   autocmd BufWinEnter * call s:ToggleWhitespaceMatch('BufWinEnter')

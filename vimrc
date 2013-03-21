@@ -1,5 +1,8 @@
-
-
+" Following lines added by drush vimrc-install on Sat, 23 Feb 2013 09:51:03 +0000.
+set nocompatible
+call pathogen#infect('/Users/alanjosephburke/.drush/vimrc/bundle')
+call pathogen#infect('/Users/alanjosephburke/.vim/bundle')
+" End of vimrc-install additions.
 " Allow Vim-only settings even if they break vi keybindings.
 set nocompatible
 
@@ -23,7 +26,6 @@ set hlsearch                "Highlight matches in search
 set ruler                   "Show line and column number
 set formatoptions=1         "Don't wrap text after a one-letter word
 set linebreak               "Break lines when appropriate
-set paste
 
 " Persistent Undo (vim 7.3 and later)
 if exists('&undofile') && !&undofile
@@ -118,5 +120,5 @@ set foldmethod=syntax   "fold based on indent
 set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
-set paste
 set pastetoggle=<F2>
+set paste

@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/alanjosephburke/git-prompt'
-let g:netrw_dirhist_2='/Users/alanjosephburke/projects/dotfiles/git-prompt'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/alanjosephburke/.vagrant.d/boxes/drupal-vagrant/public/deri.loc/www/sites/all/modules/custom/features/views_press_releases'
+let g:netrw_dirhist_2='/Users/alanjosephburke/projects/10km/_includes'
+let g:netrw_dirhist_3='/Users/alanjosephburke/.vagrant.d/boxes/drupal-vagrant/public/deri.loc/www/sites/all/modules/custom/deri'
+let g:netrw_dirhist_4='/Users/alanjosephburke/.vagrant.d/boxes/drupal-vagrant/public/sacredspace.loc/www/sites/sacredspace/modules/custom/sacred_space_user_settings'
+let g:netrw_dirhist_5='/Users/alanjosephburke/.vagrant.d/boxes/drupal-vagrant/public/athenry6.loc/www/sites/all/modules/custom/notify'
+let g:netrw_dirhist_6='/Users/alanjosephburke/.vagrant.d/boxes/drupal-vagrant/public/drupal8.loc/www/sites/default/files/config_grumUzPuFPrQ-wNSOtWFR8RghAXkWY5lHcb1Tc0YXwY'
+let g:netrw_dirhist_7='/Users/alanjosephburke/.vagrant.d/boxes/drupal-vagrant/public/decipher.loc/decipher-github2/drupal-7/profiles/storyscope/modules/custom/storyscope_viewmodes'
+let g:netrw_dirhist_8='/Users/alanjosephburke/.vagrant.d/boxes/drupal-vagrant/public/decipher.loc/decipher-github2/drupal-7/profiles/storyscope/modules/contrib-dev/custom_breadcrumbs'
