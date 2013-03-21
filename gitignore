@@ -8,3 +8,4 @@ sites/default/private
 *.swp
 *.DS_Store
 .DS_Store
+.sass-cache
