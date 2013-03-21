@@ -18,14 +18,14 @@
 [alias]
   a = apply --index
   p = format-patch --stdout
-  st = status -s
   df = !git diff --no-prefix && git diff --staged --no-prefix
+  dfc = diff --cached
   clear = reset --hard
   st = status
-	co = checkout
-	ci = commit
-	cim = commit -am
-	br = branch
+  co = checkout
+  ci = commit
+  cim = commit -am
+  br = branch
   mnf =  merge --no-ff 
   hist = log --pretty=oneline --graph --date=short --decorate --abbrev-commit
   hnm = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --no-merges
